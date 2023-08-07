@@ -1,0 +1,79 @@
+.filterWidth {
+    width: 12em;
+    background-color: white !important;
+}
+.filterDate {
+    height: 3.5em;
+    width: 12em;
+    padding: 0.7em;
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "Catamaran";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.3);
+    outline-color: #FFA412;
+}
+
+.filterButton {
+    height: 3.5em;
+    width: 15em;
+    padding: 0.7em;
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "Catamaran";
+    font-weight: 800 !important;
+    font-size: 1rem;
+    text-transform: capitalize !important;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: #FFA412;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    border-width: 2px !important;
+    border-color: #FFA412;
+    background-color:white !important;
+}
+
+.tableHeader{
+    /*color:#FFA412;*/
+    -webkit-text-stroke-width: 1px;
+}
+
+
+/*PAGINATION*/
+.css-kbrpxg-MuiButtonBase-root-MuiPaginationItem-root {
+    color: #FFA412 !important;
+    border: 1px solid #FFA412 !important;
+    font-family: "Catamaran" !important;
+    font-size: 1.2rem !important;
+    margin: 0 6px !important;
+}
+
+.css-kbrpxg-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #FFA412 !important;
+    color:white !important;
+}
+
